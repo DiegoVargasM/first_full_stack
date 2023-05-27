@@ -101,9 +101,9 @@ export const ProductForm = () => {
           name="status"
           onChange={handlerForm}
         >
-          <option value="started">Pendiente</option>
+          <option value="started">Iniciado</option>
           <option value="in-progress">En progreso</option>
-          <option value="finished">Terminada</option>
+          <option value="finished">Terminado</option>
         </Form.Select>
       </Form.Group>
       <Button variant="primary" type="submit">
